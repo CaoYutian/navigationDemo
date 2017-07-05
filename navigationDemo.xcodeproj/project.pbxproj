@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F923526282E62D628F93933 /* libPods-navigationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426E5847F0E28D696E664E7 /* libPods-navigationDemo.a */; };
+		AE129B361F09DCEC007C6E3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE129B351F09DCEC007C6E3D /* main.m */; };
+		AE129B391F09DCEC007C6E3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE129B381F09DCEC007C6E3D /* AppDelegate.m */; };
+		AE129B3F1F09DCEC007C6E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE129B3D1F09DCEC007C6E3D /* Main.storyboard */; };
+		AE129B411F09DCEC007C6E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE129B401F09DCEC007C6E3D /* Assets.xcassets */; };
+		AE129B441F09DCEC007C6E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE129B421F09DCEC007C6E3D /* LaunchScreen.storyboard */; };
+		AE129B521F09F1A4007C6E3D /* BaiduTraceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE129B511F09F1A4007C6E3D /* BaiduTraceSDK.framework */; };
+		AE129B531F09F1A4007C6E3D /* BaiduTraceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE129B511F09F1A4007C6E3D /* BaiduTraceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE129B611F0A40D1007C6E3D /* RouteSearchDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE129B5F1F0A40D1007C6E3D /* RouteSearchDemoViewController.mm */; };
+		AE129B621F0A40D1007C6E3D /* RouteSearchDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE129B601F0A40D1007C6E3D /* RouteSearchDemoViewController.xib */; };
+		AE129B661F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE129B641F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.mm */; };
+		AE129B671F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE129B651F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.xib */; };
+		AE129B6A1F0A4144007C6E3D /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE129B691F0A4144007C6E3D /* UIImage+Rotate.m */; };
+		AE129B6E1F0A4178007C6E3D /* PoiSearchDemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE129B6C1F0A4178007C6E3D /* PoiSearchDemoViewController.mm */; };
+		AE129B6F1F0A4178007C6E3D /* PoiSearchDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE129B6D1F0A4178007C6E3D /* PoiSearchDemoViewController.xib */; };
+		AE129B721F0A41A1007C6E3D /* RouteAnnotation.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE129B711F0A41A1007C6E3D /* RouteAnnotation.mm */; };
+		AE129B741F0A445D007C6E3D /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE129B731F0A445D007C6E3D /* mapapi.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE129B541F09F1A4007C6E3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE129B531F09F1A4007C6E3D /* BaiduTraceSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4426E5847F0E28D696E664E7 /* libPods-navigationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navigationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE129B311F09DCEC007C6E3D /* navigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE129B351F09DCEC007C6E3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE129B371F09DCEC007C6E3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE129B381F09DCEC007C6E3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE129B3E1F09DCEC007C6E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE129B401F09DCEC007C6E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE129B431F09DCEC007C6E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE129B451F09DCEC007C6E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE129B4B1F09DEA7007C6E3D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AE129B511F09F1A4007C6E3D /* BaiduTraceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduTraceSDK.framework; path = ../BaiduTraceSDK.framework; sourceTree = "<group>"; };
+		AE129B5E1F0A40D1007C6E3D /* RouteSearchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteSearchDemoViewController.h; sourceTree = "<group>"; };
+		AE129B5F1F0A40D1007C6E3D /* RouteSearchDemoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteSearchDemoViewController.mm; sourceTree = "<group>"; };
+		AE129B601F0A40D1007C6E3D /* RouteSearchDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteSearchDemoViewController.xib; sourceTree = "<group>"; };
+		AE129B631F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WayPointRouteSearchDemoViewController.h; sourceTree = "<group>"; };
+		AE129B641F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WayPointRouteSearchDemoViewController.mm; sourceTree = "<group>"; };
+		AE129B651F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WayPointRouteSearchDemoViewController.xib; sourceTree = "<group>"; };
+		AE129B681F0A4144007C6E3D /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		AE129B691F0A4144007C6E3D /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		AE129B6B1F0A4178007C6E3D /* PoiSearchDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiSearchDemoViewController.h; sourceTree = "<group>"; };
+		AE129B6C1F0A4178007C6E3D /* PoiSearchDemoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PoiSearchDemoViewController.mm; sourceTree = "<group>"; };
+		AE129B6D1F0A4178007C6E3D /* PoiSearchDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoiSearchDemoViewController.xib; sourceTree = "<group>"; };
+		AE129B701F0A41A0007C6E3D /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAnnotation.h; sourceTree = "<group>"; };
+		AE129B711F0A41A1007C6E3D /* RouteAnnotation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteAnnotation.mm; sourceTree = "<group>"; };
+		AE129B731F0A445D007C6E3D /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		BBAF657D98971AD0D3062614 /* Pods-navigationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-navigationDemo/Pods-navigationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FBE597255F593574302F81D2 /* Pods-navigationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-navigationDemo/Pods-navigationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE129B2E1F09DCEC007C6E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE129B521F09F1A4007C6E3D /* BaiduTraceSDK.framework in Frameworks */,
+				8F923526282E62D628F93933 /* libPods-navigationDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1195F40E28C1F9741725C6F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE597255F593574302F81D2 /* Pods-navigationDemo.debug.xcconfig */,
+				BBAF657D98971AD0D3062614 /* Pods-navigationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70C5699A68F201DB54253686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4426E5847F0E28D696E664E7 /* libPods-navigationDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE129B281F09DCEC007C6E3D = {
+			isa = PBXGroup;
+			children = (
+				AE129B331F09DCEC007C6E3D /* navigationDemo */,
+				AE129B321F09DCEC007C6E3D /* Products */,
+				1195F40E28C1F9741725C6F9 /* Pods */,
+				70C5699A68F201DB54253686 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE129B321F09DCEC007C6E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE129B311F09DCEC007C6E3D /* navigationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE129B331F09DCEC007C6E3D /* navigationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AE129B751F0A47F9007C6E3D /* Resources */,
+				AE129B4B1F09DEA7007C6E3D /* PrefixHeader.pch */,
+				AE129B371F09DCEC007C6E3D /* AppDelegate.h */,
+				AE129B381F09DCEC007C6E3D /* AppDelegate.m */,
+				AE129B5E1F0A40D1007C6E3D /* RouteSearchDemoViewController.h */,
+				AE129B5F1F0A40D1007C6E3D /* RouteSearchDemoViewController.mm */,
+				AE129B601F0A40D1007C6E3D /* RouteSearchDemoViewController.xib */,
+				AE129B631F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.h */,
+				AE129B641F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.mm */,
+				AE129B651F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.xib */,
+				AE129B6B1F0A4178007C6E3D /* PoiSearchDemoViewController.h */,
+				AE129B6C1F0A4178007C6E3D /* PoiSearchDemoViewController.mm */,
+				AE129B6D1F0A4178007C6E3D /* PoiSearchDemoViewController.xib */,
+				AE129B701F0A41A0007C6E3D /* RouteAnnotation.h */,
+				AE129B711F0A41A1007C6E3D /* RouteAnnotation.mm */,
+				AE129B681F0A4144007C6E3D /* UIImage+Rotate.h */,
+				AE129B691F0A4144007C6E3D /* UIImage+Rotate.m */,
+				AE129B3D1F09DCEC007C6E3D /* Main.storyboard */,
+				AE129B401F09DCEC007C6E3D /* Assets.xcassets */,
+				AE129B421F09DCEC007C6E3D /* LaunchScreen.storyboard */,
+				AE129B451F09DCEC007C6E3D /* Info.plist */,
+				AE129B511F09F1A4007C6E3D /* BaiduTraceSDK.framework */,
+				AE129B341F09DCEC007C6E3D /* Supporting Files */,
+			);
+			path = navigationDemo;
+			sourceTree = "<group>";
+		};
+		AE129B341F09DCEC007C6E3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE129B351F09DCEC007C6E3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE129B751F0A47F9007C6E3D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE129B731F0A445D007C6E3D /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE129B301F09DCEC007C6E3D /* navigationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE129B481F09DCEC007C6E3D /* Build configuration list for PBXNativeTarget "navigationDemo" */;
+			buildPhases = (
+				1A5A97F0C4A87E63071338C2 /* [CP] Check Pods Manifest.lock */,
+				AE129B2D1F09DCEC007C6E3D /* Sources */,
+				AE129B2E1F09DCEC007C6E3D /* Frameworks */,
+				AE129B2F1F09DCEC007C6E3D /* Resources */,
+				AE129B541F09F1A4007C6E3D /* Embed Frameworks */,
+				F9F006C885741FA4908AE8E4 /* [CP] Embed Pods Frameworks */,
+				996A60CDEEB6994228307B7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = navigationDemo;
+			productName = navigationDemo;
+			productReference = AE129B311F09DCEC007C6E3D /* navigationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE129B291F09DCEC007C6E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sunshine;
+				TargetAttributes = {
+					AE129B301F09DCEC007C6E3D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MEP36VDQSJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE129B2C1F09DCEC007C6E3D /* Build configuration list for PBXProject "navigationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE129B281F09DCEC007C6E3D;
+			productRefGroup = AE129B321F09DCEC007C6E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE129B301F09DCEC007C6E3D /* navigationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE129B2F1F09DCEC007C6E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE129B441F09DCEC007C6E3D /* LaunchScreen.storyboard in Resources */,
+				AE129B621F0A40D1007C6E3D /* RouteSearchDemoViewController.xib in Resources */,
+				AE129B411F09DCEC007C6E3D /* Assets.xcassets in Resources */,
+				AE129B671F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.xib in Resources */,
+				AE129B6F1F0A4178007C6E3D /* PoiSearchDemoViewController.xib in Resources */,
+				AE129B3F1F09DCEC007C6E3D /* Main.storyboard in Resources */,
+				AE129B741F0A445D007C6E3D /* mapapi.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A5A97F0C4A87E63071338C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		996A60CDEEB6994228307B7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-navigationDemo/Pods-navigationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F006C885741FA4908AE8E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-navigationDemo/Pods-navigationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE129B2D1F09DCEC007C6E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE129B391F09DCEC007C6E3D /* AppDelegate.m in Sources */,
+				AE129B6A1F0A4144007C6E3D /* UIImage+Rotate.m in Sources */,
+				AE129B611F0A40D1007C6E3D /* RouteSearchDemoViewController.mm in Sources */,
+				AE129B721F0A41A1007C6E3D /* RouteAnnotation.mm in Sources */,
+				AE129B361F09DCEC007C6E3D /* main.m in Sources */,
+				AE129B661F0A40F9007C6E3D /* WayPointRouteSearchDemoViewController.mm in Sources */,
+				AE129B6E1F0A4178007C6E3D /* PoiSearchDemoViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE129B3D1F09DCEC007C6E3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE129B3E1F09DCEC007C6E3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE129B421F09DCEC007C6E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE129B431F09DCEC007C6E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE129B461F09DCEC007C6E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE129B471F09DCEC007C6E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE129B491F09DCEC007C6E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE597255F593574302F81D2 /* Pods-navigationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MEP36VDQSJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/navigationDemo",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = navigationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailng.navigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE129B4A1F09DCEC007C6E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAF657D98971AD0D3062614 /* Pods-navigationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MEP36VDQSJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/navigationDemo",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = navigationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ailng.navigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE129B2C1F09DCEC007C6E3D /* Build configuration list for PBXProject "navigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE129B461F09DCEC007C6E3D /* Debug */,
+				AE129B471F09DCEC007C6E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE129B481F09DCEC007C6E3D /* Build configuration list for PBXNativeTarget "navigationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE129B491F09DCEC007C6E3D /* Debug */,
+				AE129B4A1F09DCEC007C6E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE129B291F09DCEC007C6E3D /* Project object */;
+}

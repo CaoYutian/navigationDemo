@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  YQW
+//
+//  Created by Sunshine on 2017/5/9.
+//  Copyright © 2017年 Sunshine. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define BAIDU_MAP_KEY       @"01Ye0BNnLp4gFpYhxMzmylXsRG4QnDHb"
+#define SERVICE_ID          @"144964"
+
+//get the  size of the Screen
+#define SCREEN_HEIGHT [[UIScreen mainScreen]bounds].size.height
+#define SCREEN_WIDTH [[UIScreen mainScreen]bounds].size.width
+#define STATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+#define CURRENT_IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+//#define CURRENT_LOCALE [[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"]
+#define CURRENT_LOCALE [NSLocale currentLocale]
+#define APP_DELEGATE [[UIApplication sharedApplication] delegate]
+
+#define USER_DEFAULTS [NSUserDefaults standardUserDefaults]
+
+#define MAIN_BUNDLE [NSBundle mainBundle]
+
+#define GLOBAL_QUEUE dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+#define MAIN_QUEUE dispatch_get_main_queue()
+
+#define MYBUNDLE_NAME @ "mapapi.bundle"
+#define MYBUNDLE_PATH [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent: MYBUNDLE_NAME]
+#define MYBUNDLE [NSBundle bundleWithPath: MYBUNDLE_PATH]
+
+#define IMAGENAMED(imageStr) [UIImage imageNamed:imageStr]
+
+#endif /* PrefixHeader_pch */
+
